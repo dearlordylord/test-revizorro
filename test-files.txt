@@ -1,0 +1,9 @@
+test/config/config.test.ts
+test/domain/schemas.test.ts
+test/huly/client.test.ts
+test/huly/errors.test.ts
+test/huly/operations/issues.test.ts
+test/index.test.ts
+test/mcp/error-mapping.test.ts
+test/mcp/server.test.ts
+test/placeholder.test.ts

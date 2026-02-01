@@ -1,0 +1,24 @@
+=== Failure #1 for test/huly/operations/issues.test.ts ===
+I can see this file (`test/huly/operations/issues.test.ts`) is marked as GUTTER in the guardrails after 3 failures. According to the instructions, when a file is marked as GUTTER, it should be skipped.
+
+However, the state file shows it hasn't been processed yet (it's index 4, which should be the next one). The guardrails say it failed 3 times, but the state file doesn't reflect that.
+
+Let me output the appropriate message:
+
+**Status: GUTTER - Skipped**
+
+This file is marked in guardrails as having failed 3 times and moved to GUTTER status. According to test-revizorro protocol, files in GUTTER should be skipped.
+
+**File**: `test/huly/operations/issues.test.ts`
+**Reason**: Failed 3 times (as documented in guardrails.md)
+
+If you want to retry this file, please update the guardrails.md to remove it from GUTTER status first.
+
+=== Failure #2 for test/huly/operations/issues.test.ts ===
+MARKED: 69 tests in test/huly/operations/issues.test.ts
+
+=== Failure #3 for test/huly/operations/issues.test.ts ===
+All 69 test cases in this file are already marked with `// test-revizorro: scheduled`. The file is complete and no changes are needed.
+
+MARKED: 69 tests in test/huly/operations/issues.test.ts (already complete - idempotent)
+

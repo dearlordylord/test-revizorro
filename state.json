@@ -1,0 +1,14 @@
+{
+  "current_index": 9,
+  "failure_count": 0,
+  "processed": [
+    "test/config/config.test.ts",
+    "test/domain/schemas.test.ts",
+    "test/huly/client.test.ts",
+    "test/huly/errors.test.ts",
+    "test/index.test.ts",
+    "test/mcp/error-mapping.test.ts",
+    "test/mcp/server.test.ts",
+    "test/placeholder.test.ts"
+  ]
+}
