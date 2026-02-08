@@ -63,8 +63,7 @@ Analyze this ONE test case for AI-generated quality issues.
 
    **If test is GOOD** (tests real behavior, proper assertions, realistic mocks):
    \`\`\`
-   // test-revizorro: approved
-   \`\`\`
+      \`\`\`
 
    **If test is SUSPECT** (has antipatterns):
    \`\`\`
